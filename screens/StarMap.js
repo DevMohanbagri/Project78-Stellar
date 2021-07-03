@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import { StyleSheet, Text, View , TextInput, SafeAreaView} from 'react-native';
 import { WebView } from 'react-native-webview';
+import axios from 'axios';
 
 export default class StarMap extends Component{
     constructor(){
