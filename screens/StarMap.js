@@ -39,7 +39,7 @@ export default class StarMap extends Component{
                 <TextInput
                    style= {{height: 40, borderColor: "gray", borderWidth: 1}}
                    placeholder = "Enter your latitude here"
-                   placeholderTextColor = "#fff#00000"
+                   placeholderTextColor = "#ffffff"
                    onChangeText={(text)=>{
                        this.setState({
                            latitude: text
@@ -50,7 +50,7 @@ export default class StarMap extends Component{
                 <TextInput
                    style= {{height: 40, borderColor: "gray", borderWidth: 1}}
                    placeholder = "Enter your longitude here"
-                   placeholderTextColor = "#fff#00000"
+                   placeholderTextColor = "#ffffff"
                    onChangeText={(text)=>{
                        this.setState({
                            longitude: text
