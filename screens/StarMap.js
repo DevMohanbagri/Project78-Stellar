@@ -4,8 +4,8 @@ import { WebView } from 'react-native-webview';
 import axios from 'axios';
 
 export default class StarMap extends Component{
-    constructor(){
-      super()
+    constructor(props){
+      super(props)
       this.state ={
           location: {},
           latitude: '',
